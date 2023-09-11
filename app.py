@@ -2,7 +2,6 @@ import streamlit as st
 import joblib
 import requests
 from bs4 import BeautifulSoup
-import plotly.express as px
 
 # Đọc mô hình Naive Bayes và vectơ hóa TF-IDF từ các tệp
 nb_classifier = joblib.load('nb_classifier.pkl')
